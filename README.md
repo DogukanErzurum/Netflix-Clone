@@ -23,3 +23,31 @@ Project Features:
 ```shell
 https://github.com/DogukanErzurum/netflix-clone.git
 ```
+
+### Install packages
+
+```shell
+npm i
+```
+
+### Setup .env file
+
+This is the section where the person hashes the registration status given by google github and my own system after registration. It is personalized!
+
+```js
+DATABASE_URL=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GITHUB_ID=
+GITHUB_SECRET=
+NEXTAUTH_JWT_SECRET=
+NEXTAUTH_SECRET=
+```
+
+### Start the app
+
+npm run dev starts the application at localhost:3000.
+
+```shell
+npm run dev
+```
